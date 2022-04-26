@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+button{
+    padding: 10px;
+    background: #083f8d;
+    color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border: 1px solid #083f8d;
+    margin-bottom: 10px;
+}
+
+hr{
+    margin:20px 0px;
+}
+
+input{
+    border-radius: 5px;
+    padding: 5px;
+}

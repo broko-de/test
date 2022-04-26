@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2 - JS</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <h2>Calculadora CAC</h2>
+        <form action="">
+            <label for="">Ingrese lado1: </label><br>
+            <input type="text" id="ladoUno" name="ladoUno"> <br><br>
+            <label for="">Ingrese lado2: </label><br>
+            <input type="text" id="ladoDos" name="ladoDos"> <br><br>
+            <button type="button" id="btnPerimetro">Calcular Perimetro</button>
+            <button type="button" id="btnMayor">Determinar Mayor</button>
+
+        </form>
+        <p>
+            El resultado del perimetro es: <span id="resultadoPerimetro"></span>
+        </p>
+        <p id="resultadoMayor">
+        </p>
+        <hr>
+        <h2>Notas</h2>
+        <form action="">
+            <label for="">Ingrese la nota: </label><br>
+            <input type="number" id="nota" name="nota"> <br><br>
+            
+            <button type="button" id="btnCalificacion">Determinar calificacion</button>
+        </form>
+        <p id="resultadoCalificacion">
+        </p>
+        <hr>
+        <h2>Frases</h2>
+        <form action="">
+            <label for="">Ingrese una frase: </label><br>
+            <input type="text" id="frase" name="frase"> <br><br>
+            
+            <button type="button" id="btnLetraA" onclick="contarLetrasA()">Veces letra "a"</button>
+            <button type="button" id="btnVocales">Mostrar vocales</button>
+            <button type="button" id="btnCantidadVocales">Mostra cantida de distintas vocales</button>
+        </form>
+        <p id="resultadoLetraA">
+        </p>
+        <p id="resultadoMotrarVocales">
+        </p>
+        <p id="resultadoCantidadVocales">
+        </p>
+    </main>
+    <script src="./js/funciones.js"></script>
+</body>
+</html>
